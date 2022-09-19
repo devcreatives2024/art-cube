@@ -50,20 +50,30 @@ const VidSec = () => {
         </div>
       </div>
       <div className="relative">
-        <motion.img
+        <motion.div
           variants={variants}
           animate={cursorVariant}
-          src="https://baosociety.com/images/cursor.png"
-          className={`w-32 h-32 p-3 rounded-full bg-opacity-90 bg-[#3534db] fixed left-0 top-0 pointer-events-none ${
+          className={`w-32 h-32 p-4 rounded-full bg-opacity-90 bg-[#3534db] fixed left-0 top-0 pointer-events-none ${
             !cursorVariant && "hidden"
           }`}
-        />
-        <img
-          src="https://baosociety.com/images/cursor.png"
-          className={`w-32 h-32 p-3 absolute rounded-full bg-opacity-90 bg-[#3534db] right-28 -top-16 pointer-events-none ${
+        >
+          <div className="w-24 h-24 bg-[url('https://baosociety.com/images/cursor.png')] bg-cover">
+            <h1 className="text-white top-[42px] left-[58px] text-4xl font-bold absolute">
+              •
+            </h1>
+          </div>
+        </motion.div>
+        <div
+          className={`w-32 h-32 p-4 absolute rounded-full bg-opacity-90 bg-[#3534db] right-28 -top-16 pointer-events-none ${
             cursorVariant && "hidden"
           }`}
-        />
+        >
+          <div className="w-24 h-24 bg-[url('https://baosociety.com/images/cursor.png')] bg-cover">
+            <h1 className="text-white top-[42px] left-[58px] text-4xl font-bold absolute">
+              •
+            </h1>
+          </div>
+        </div>
         <img
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
