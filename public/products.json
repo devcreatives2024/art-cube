@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Gas Guzzlers",
     "img": "https://marketplace.baosociety.com/_next/image?url=https%3A%2F%2Fgdxhq3xbzo96.usemoralis.com%3A2053%2Fserver%2Ffiles%2FfN6KFeAzTez7QXMSq2jPD3GUNbddVNhdDrpSB6Z2%2Fd2be9248141e3e6b863acf8dedfdea5d_xQOKY-ZK_400x400.jpg&w=1920&q=75",
-    "available": "0",
+    "available": "10",
     "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, mollitia. Optio, minima? Minus, architecto, deserunt ea minima eius doloremque tempora aspernatur veniam saepe iusto expedita esse dolorum ducimus aut voluptatum.",
     "price": "3000"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Shinnoki",
     "img": "https://marketplace.baosociety.com/_next/image?url=https%3A%2F%2Fgdxhq3xbzo96.usemoralis.com%3A2053%2Fserver%2Ffiles%2FfN6KFeAzTez7QXMSq2jPD3GUNbddVNhdDrpSB6Z2%2F36376418744c27a7efb1edb933e2c07f_IMG_6747.jpg&w=1920&q=75",
-    "available": "5",
+    "available": "85",
     "disc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, mollitia. Optio, minima? Minus, architecto, deserunt ea minima eius doloremque tempora aspernatur veniam saepe iusto expedita esse dolorum ducimus aut voluptatum.",
     "price": "3000"
   },

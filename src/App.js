@@ -5,6 +5,9 @@ import Home from "./Pages/Home/Home";
 import MarketPlace from "./Pages/MarketPlace/MarketPlace";
 import Loader from "./Pages/Shared/Loader";
 import Stake from "./Pages/Stake/Stake";
+import WHome from "./Pages/Whitepaper/Home";
+import Whitepaper from "./Pages/Whitepaper/Whitepaper";
+import WisArt from "./Pages/Whitepaper/WisArt";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -20,6 +23,10 @@ function App() {
         <Route path="" element={loading ? <Loader /> : <Home />}></Route>
         <Route path="/stake" element={<Stake />}></Route>
         <Route path="/market" element={<MarketPlace />}></Route>
+        <Route path="/whitepaper" element={<Whitepaper />}>
+          <Route path="/whitepaper" element={<WHome />}></Route>
+          <Route path="/whitepaper/what" element={<WisArt />}></Route>
+        </Route>
       </Routes>
     </>
   );

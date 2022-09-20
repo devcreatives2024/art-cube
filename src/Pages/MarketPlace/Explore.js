@@ -1,6 +1,6 @@
 import React from "react";
 
-const Explore = () => {
+const Explore = ({ theme }) => {
   return (
     <div className="mx-40">
       <div className="mt-20 mb-8 flex">
@@ -14,16 +14,33 @@ const Explore = () => {
           </p>
         </div>
         <div className="flex gap-3">
-          <img
-            src="https://marketplace.baosociety.com/icons/discord/discord-light.svg"
-            alt=""
-            className="w-5"
-          />
-          <img
-            src="https://marketplace.baosociety.com/icons/twitter/twitter-light.svg"
-            alt=""
-            className="w-5"
-          />
+          {theme ? (
+            <>
+              <img
+                src="https://marketplace.baosociety.com/icons/discord/discord-dark.svg"
+                alt=""
+                className="w-5"
+              />
+              <img
+                src="https://marketplace.baosociety.com/icons/twitter/twitter-dark.svg"
+                alt=""
+                className="w-5"
+              />
+            </>
+          ) : (
+            <>
+              <img
+                src="https://marketplace.baosociety.com/icons/discord/discord-light.svg"
+                alt=""
+                className="w-5"
+              />
+              <img
+                src="https://marketplace.baosociety.com/icons/twitter/twitter-light.svg"
+                alt=""
+                className="w-5"
+              />
+            </>
+          )}
         </div>
       </div>
     </div>

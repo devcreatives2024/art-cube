@@ -18,7 +18,7 @@ const MarketPlace = () => {
     <div className={`${theme && "dark"}`}>
       <div className="text-[#1A1A1A] dark:bg-[#000000] dark:text-[#FAFAFA] bg-[#FAFAFA]">
         <MarketNav handleThemeChange={handleThemeChange} theme={theme} />
-        <Explore />
+        <Explore theme={theme} />
         <Products theme={theme} />
       </div>
     </div>

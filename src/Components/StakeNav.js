@@ -15,11 +15,18 @@ const StakeNav = () => {
         />
         <ul className="flex gap-8 mr-10 uppercase text-lg font-sub font-extralight  mt-4">
           <li>
-            <a href="market" target='_blank' className="hover:scale-x-110 block duration-200">Market</a>
+            <a
+              href="market"
+              target="_blank"
+              className="hover:scale-x-110 block duration-200"
+            >
+              Market
+            </a>
           </li>
           <li>
             <a
-              href="#"
+              href="whitepaper"
+              target='_blank'
               onMouseEnter={() => handleHover(2)}
               onMouseLeave={() => handleHover(false)}
             >
