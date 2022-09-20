@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "../../Components/Nav";
 import Acordian from "./Acordian";
 import CircleText from "./CircleText";
 import Coin from "./Coin";
@@ -11,7 +12,8 @@ import VidSec from "./VidSec";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#BBBBBB] text-[#28282E]">
+      <Nav />
       <Main />
       <VidSec />
       <Secion3 />

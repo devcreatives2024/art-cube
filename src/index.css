@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@300&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;300;400&display=swap");
 
 body {
   margin: 0;

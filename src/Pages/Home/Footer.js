@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mx-20 relative mt-40 mb-16">
+    <div className="mx-20 relative mt-40 pb-16">
       <div>
         <h1 className="text-[230px] font-head uppercase">Art Cube.</h1>
         <div className="absolute right-72 border-[6px] border-[#3534db] text-[#3534db] rounded-full px-[4px] py-[20px] top-6">

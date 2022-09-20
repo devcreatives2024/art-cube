@@ -29,7 +29,8 @@ const Nav = () => {
                 delay: 0.1,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
-              href="#"
+              href="stake"
+              target="_blank"
             >
               Stake
             </motion.a>
@@ -43,7 +44,8 @@ const Nav = () => {
                 delay: 0.2,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
-              href="#"
+              href="market"
+              target="_blank"
             >
               Marketplace
             </motion.a>

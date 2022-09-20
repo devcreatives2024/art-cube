@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 
 const VidSec = () => {
+  const [isOpen, setOpen] = useState(false);
   const [mousePosition, setMousePosition] = useState({
     x: 0,
     y: 0,
@@ -33,7 +34,7 @@ const VidSec = () => {
   const textEnter = () => setCursorVariant("default");
   const textLeave = () => setCursorVariant(false);
   return (
-    <motion.div className="mx-20 mb-28">
+    <div className="mx-20 mb-28">
       <div className="flex items-start justify-between">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -92,7 +93,7 @@ const VidSec = () => {
           className="w-[60vw] mx-auto my-20"
         />
       </div>
-    </motion.div>
+    </div>
   );
 };
 
