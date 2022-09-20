@@ -35,11 +35,21 @@ const VidSec = () => {
   return (
     <motion.div className="mx-20 mb-28">
       <div className="flex items-start justify-between">
-        <div className="">
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.1,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+          viewport={{ once: true }}
+          className=""
+        >
           <h1 className="text-[130px] mt-24 leading-none tracking-tight font-head uppercase">
             Web3 Meets <br /> Food & Beverage
           </h1>
-        </div>
+        </motion.div>
         <div className=" font-bold text-3xl text-[#3534DB]">
           <div className="border-[7px] text-center border-[#3534DB] p-16">
             <p>艺</p>

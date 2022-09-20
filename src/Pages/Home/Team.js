@@ -44,9 +44,19 @@ const Team = () => {
   const textLeave = () => setCursorVariant(false);
   return (
     <div className="mx-20 relative my-40">
-      <h1 className="text-[130px] mt-24 leading-none tracking-tighter font-head uppercase">
+      <motion.h1
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 1 }}
+        transition={{
+          duration: 1,
+          delay: 0.1,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+        viewport={{ once: true }}
+        className="text-[130px] mt-24 leading-none tracking-tighter font-head uppercase"
+      >
         Team
-      </h1>
+      </motion.h1>
       <motion.div
         variants={variants}
         animate={cursorVariant}
@@ -55,9 +65,7 @@ const Team = () => {
         }`}
       >
         <div className="w-24 h-24 bg-[url('https://baosociety.com/images/cursor.png')] bg-cover">
-          <h1 className="text-white top-[53px] left-[49px] absolute">
-          ◂ ▸
-          </h1>
+          <h1 className="text-white top-[53px] left-[49px] absolute">◂ ▸</h1>
         </div>
       </motion.div>
       <div
@@ -100,7 +108,17 @@ const Team = () => {
         >
           <div className="mx-auto">
             <SwiperSlide className="h-full">
-              <div className="w-96">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  delay: 0.1,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+                viewport={{ once: true }}
+                className="w-96"
+              >
                 <img
                   src="https://cdn.sanity.io/images/tksc7ovq/production/eee76581e1c3f5c8daba9faac5558cdbc8ec18ea-640x400.jpg"
                   alt=""
@@ -114,10 +132,20 @@ const Team = () => {
                   facilis quam, eum dignissimos temporibus aliquid delectus
                   eaque culpa deleniti expedita.
                 </p>
-              </div>
+              </motion.div>
             </SwiperSlide>
             <SwiperSlide className="h-full">
-              <div className="w-96">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  delay: 0.3,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+                viewport={{ once: true }}
+                className="w-96"
+              >
                 <img
                   src="https://cdn.sanity.io/images/tksc7ovq/production/b5758a307c5564f78f3c3b14324d4ef14efab18e-640x400.jpg"
                   alt=""
@@ -131,10 +159,20 @@ const Team = () => {
                   facilis quam, eum dignissimos temporibus aliquid delectus
                   eaque culpa deleniti expedita.
                 </p>
-              </div>
+              </motion.div>
             </SwiperSlide>
             <SwiperSlide className="h-full">
-              <div className="w-96">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  delay: 0.5,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+                viewport={{ once: true }}
+                className="w-96"
+              >
                 <img
                   src="https://cdn.sanity.io/images/tksc7ovq/production/df47ff7d4ff12f69bab2ac8401115b92ee6851be-640x400.jpg"
                   alt=""
@@ -148,10 +186,20 @@ const Team = () => {
                   facilis quam, eum dignissimos temporibus aliquid delectus
                   eaque culpa deleniti expedita.
                 </p>
-              </div>
+              </motion.div>
             </SwiperSlide>
             <SwiperSlide className="h-full">
-              <div className="w-96">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  delay: 0.7,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+                viewport={{ once: true }}
+                className="w-96"
+              >
                 <img
                   src="https://cdn.sanity.io/images/tksc7ovq/production/407b6ca3c79ffffebab4d9a458c3e6b6abadb7d4-640x400.jpg"
                   alt=""
@@ -165,10 +213,19 @@ const Team = () => {
                   facilis quam, eum dignissimos temporibus aliquid delectus
                   eaque culpa deleniti expedita.
                 </p>
-              </div>
+              </motion.div>
             </SwiperSlide>
             <SwiperSlide className="h-full">
-              <div className="w-96">
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{
+                  duration: 1,
+                  ease: [0, 0.71, 0.2, 1.01],
+                }}
+                viewport={{ once: true }}
+                className="w-96"
+              >
                 <img
                   src="https://cdn.sanity.io/images/tksc7ovq/production/fbccc550a3faa2bbcb4d3ff9a9d77cf4cd1ec489-640x400.jpg"
                   alt=""
@@ -182,7 +239,7 @@ const Team = () => {
                   facilis quam, eum dignissimos temporibus aliquid delectus
                   eaque culpa deleniti expedita.
                 </p>
-              </div>
+              </motion.div>
             </SwiperSlide>
           </div>
         </Swiper>

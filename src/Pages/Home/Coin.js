@@ -1,5 +1,5 @@
 import React from "react";
-import coin from "../Assets/coin.webm";
+import coin from "../../Assets/coin.webm";
 import ParalaxText from "./ParalaxText";
 import "./styles.css";
 
@@ -8,31 +8,31 @@ const Coin = () => {
     <div className="relative">
       <section>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          Framer Motion
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          Scroll velocity
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          Framer Motion
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          Scroll velocity
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          Framer Motion
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          Scroll velocity
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          Framer Motion
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          Scroll velocity
+          ArtCube artcube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          Framer Motion
+          ArtCube artcube
         </ParalaxText>
       </section>
       {/* <img src={coin} alt="coin" className="absolute right-[32vw] top-[30vh]" /> */}
