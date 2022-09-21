@@ -8,31 +8,31 @@ const Coin = () => {
     <div className="relative">
       <section>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"fill"} baseVelocity={5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
         <ParalaxText stroke={"outline"} baseVelocity={-5}>
-          ArtCube artcube
+          BaoCube Baocube
         </ParalaxText>
       </section>
       {/* <img src={coin} alt="coin" className="absolute right-[32vw] top-[30vh]" /> */}
@@ -42,7 +42,7 @@ const Coin = () => {
         loop
         controlsList="nodownload"
         autoPlay
-        className="absolute left-[37%] top-[30%] w-80"
+        className="absolute left-[30%] lg:left-[37%] top-[30%] w-40 lg:w-80"
       ></video>
     </div>
   );

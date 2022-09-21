@@ -43,7 +43,7 @@ const Team = () => {
   const textEnter = () => setCursorVariant("default");
   const textLeave = () => setCursorVariant(false);
   return (
-    <div className="mx-20 relative my-40">
+    <div className="lg:mx-20 mx-5 relative my-10 lg:my-40">
       <motion.h1
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 1 }}
@@ -53,7 +53,7 @@ const Team = () => {
           ease: [0, 0.71, 0.2, 1.01],
         }}
         viewport={{ once: true }}
-        className="text-[130px] mt-24 leading-none tracking-tighter font-head uppercase"
+        className="lg:text-[130px] text-[80px]  lg:mt-24 leading-none tracking-tighter font-head uppercase"
       >
         Team
       </motion.h1>
@@ -64,7 +64,7 @@ const Team = () => {
           !cursorVariant && "hidden"
         }`}
       >
-        <div className="w-24 h-24 bg-[url('https://baosociety.com/images/cursor.png')] bg-cover">
+        <div className="w-24 h-24 bg-[url('https://Baosociety.com/images/cursor.png')] bg-cover">
           <h1 className="text-white top-[53px] left-[49px] absolute">◂ ▸</h1>
         </div>
       </motion.div>

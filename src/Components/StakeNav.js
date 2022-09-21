@@ -7,13 +7,13 @@ const StakeNav = () => {
   };
   return (
     <div>
-      <div className="flex items-start justify-between mx-24 py-16">
+      <div className="flex items-start justify-between gap-2 lg:mx-24 mx-4 py-16">
         <img
-          src="https://stake.baosociety.com/_next/image?url=%2Flogos%2FNavLogo.png&w=1920&q=75"
-          className="w-36"
+          src="https://stake.Baosociety.com/_next/image?url=%2Flogos%2FNavLogo.png&w=1920&q=75"
+          className="lg:w-36 w-20"
           alt=""
         />
-        <ul className="flex gap-8 mr-10 uppercase text-lg font-sub font-extralight  mt-4">
+        <ul className="flex lg:gap-8 gap-3 lg:mr-10 uppercase lg:text-lg font-sub font-extralight  lg:mt-4">
           <li>
             <a
               href="market"

@@ -3,8 +3,8 @@ import logo from "../logo.png";
 
 const MarketNav = ({ handleThemeChange, theme }) => {
   return (
-    <div className="mx-28">
-      <div className="pt-10 flex justify-between items-center">
+    <div className="lg:mx-28">
+      <div className="pt-10 hidden lg:flex justify-between items-center">
         <div className="flex items-center gap-3">
           <img src={logo} alt="" className="w-10" />
           <h1 className="text-2xl font-semibold">Art Cube</h1>
@@ -38,13 +38,13 @@ const MarketNav = ({ handleThemeChange, theme }) => {
           >
             {theme ? (
               <img
-                src="https://marketplace.baosociety.com/icons/theme/moon.svg"
+                src="https://marketplace.Baosociety.com/icons/theme/moon.svg"
                 alt=""
                 className="w-6"
               />
             ) : (
               <img
-                src="https://marketplace.baosociety.com/icons/theme/sun.svg"
+                src="https://marketplace.Baosociety.com/icons/theme/sun.svg"
                 alt=""
                 className="w-6"
               />

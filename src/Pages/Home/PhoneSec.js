@@ -3,8 +3,8 @@ import React from "react";
 
 const PhoneSec = () => {
   return (
-    <div className="my-28 mx-20">
-      <div className="flex items-center">
+    <div className="lg:my-28 mx-5 my-8 lg:mx-20">
+      <div className="lg:flex items-center">
         <div className="w-full">
           <motion.h1
             initial={{ opacity: 0, x: -100 }}
@@ -15,7 +15,7 @@ const PhoneSec = () => {
               ease: [0, 0.71, 0.2, 1.01],
             }}
             viewport={{ once: true }}
-            className="text-[130px] mt-24 leading-none tracking-tight font-head uppercase"
+            className="lg:text-[130px] text-[80px] lg:mt-24 leading-none tracking-tight font-head uppercase"
           >
             Web3 in <br /> your pocket.
           </motion.h1>
@@ -31,7 +31,7 @@ const PhoneSec = () => {
             className="max-w-sm my-12"
           >
             <p className="">
-              <span className="ml-20"></span> Access Bao Society perks from the
+              <span className="ml-20"></span> Access Art Society perks from the
               convenience of your phone. Get notified on exclusive holder
               events, mini games and revolutionary AR experiences with your
               Baos.
@@ -60,7 +60,7 @@ const PhoneSec = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
           viewport={{ once: true }}
-          className="flex w-96 justify-center"
+          className="lg:flex w-96 justify-center hidden"
         >
           <img
             src="https://cdn.sanity.io/images/tksc7ovq/production/58c26f8e76f521bd61ee0ef543556e6c665157f8-439x519.png"

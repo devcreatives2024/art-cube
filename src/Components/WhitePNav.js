@@ -2,7 +2,7 @@ import React from "react";
 
 const WhitePNav = () => {
   return (
-    <div className="p-5 bg-[#181C1F] border-b border-[#374151] w-full flex">
+    <div className="p-5 bg-[#181C1F] border-b border-[#374151] w-full hidden lg:flex">
       <div className="flex justify-start">
         <div className="w-72 border-r border-[#374151]">
           <img
@@ -13,7 +13,7 @@ const WhitePNav = () => {
         </div>
       </div>
       <div className="w-full"></div>
-      <div className="flex text-[#CFD0D0] items-center gap-1 w-60 pl-4 border-l border-[#374151]">
+      <div className="flex text-[#CFD0D0] items-center gap-1 w-60 pl-4 border-l border-[#374151] cursor-pointer hover:text-blue-600">
         <svg
           viewBox="0 0 24 24"
           fill="none"

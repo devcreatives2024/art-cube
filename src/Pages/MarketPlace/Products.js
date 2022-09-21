@@ -1,9 +1,9 @@
 import {
-    Button,
-    Menu,
-    MenuHandler,
-    MenuItem,
-    MenuList
+  Button,
+  Menu,
+  MenuHandler,
+  MenuItem,
+  MenuList
 } from "@material-tailwind/react";
 import React, { useEffect, useState } from "react";
 import Product from "./Product";
@@ -23,8 +23,8 @@ const Products = ({ theme }) => {
   const Available = products.filter((s) => s.available > 0);
   const Expired = products.filter((s) => s.available == "exp");
   return (
-    <div className="mx-40">
-      <div className="flex justify-between">
+    <div className="lg:mx-40 mx-5">
+      <div className="flex lg:flex-row flex-col gap-3 lg:gap-0 justify-between">
         <Menu>
           <MenuHandler>
             <Button className="bg-white dark:bg-black dark:text-white dark:border-white text-[#1A1A1A] border-2 text-lg font-sub capitalize hover:shadow-none border-[#1A1A1A] justify-between w-44 flex shadow-none">
@@ -56,10 +56,10 @@ const Products = ({ theme }) => {
             </MenuItem>
           </MenuList>
         </Menu>
-        <button className="px-4 h-11 border-[#1A1A1A] text-sm font-bold border-2 rounded-full flex items-center gap-2">
+        <button className="px-4 h-11 w-fit border-[#1A1A1A] text-sm font-bold border-2 rounded-full flex items-center gap-2">
           {theme ? (
             <img
-              src="https://marketplace.baosociety.com/icons/cart/cart-dark.svg"
+              src="https://marketplace.Baosociety.com/icons/cart/cart-dark.svg"
               alt=""
               className="w-5"
             />
@@ -70,12 +70,12 @@ const Products = ({ theme }) => {
               className="w-5"
             />
           )}
-          Cart (0)
+          CArt (0)
         </button>
       </div>
       {open === "available" && (
         <>
-          <div className="grid grid-cols-3 gap-6 justify-items-center mt-6">
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 justify-items-center mt-6">
             {Available.map((product) => (
               <Product key={product?.id} theme={theme} product={product} />
             ))}
@@ -90,7 +90,7 @@ const Products = ({ theme }) => {
       )}
       {open === "all" && (
         <>
-          <div className="grid grid-cols-3 gap-6 justify-items-center mt-6">
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 justify-items-center mt-6">
             {products.map((product) => (
               <Product key={product?.id} theme={theme} product={product} />
             ))}
@@ -103,7 +103,7 @@ const Products = ({ theme }) => {
       )}
       {open === "expired" && (
         <>
-          <div className="grid grid-cols-3 gap-6 justify-items-center mt-6">
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 justify-items-center mt-6">
             {Expired.map((product) => (
               <Product key={product?.id} theme={theme} product={product} />
             ))}

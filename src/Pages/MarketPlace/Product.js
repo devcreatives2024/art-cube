@@ -38,17 +38,17 @@ const Product = ({ product, theme }) => {
         {theme ? (
           <>
             <img
-              src="https://marketplace.baosociety.com/icons/website/website-dark.svg"
+              src="https://marketplace.Baosociety.com/icons/website/website-dark.svg"
               className="w-5 hover:scale-105 duration-200 cursor-pointer"
               alt=""
             />
             <img
-              src="https://marketplace.baosociety.com/icons/discord/discord-dark.svg"
+              src="https://marketplace.Baosociety.com/icons/discord/discord-dark.svg"
               className="w-5 hover:scale-105 duration-200 cursor-pointer"
               alt=""
             />
             <img
-              src="https://marketplace.baosociety.com/icons/twitter/twitter-dark.svg"
+              src="https://marketplace.Baosociety.com/icons/twitter/twitter-dark.svg"
               className="w-5 hover:scale-105 duration-200 cursor-pointer"
               alt=""
             />
@@ -56,17 +56,17 @@ const Product = ({ product, theme }) => {
         ) : (
           <>
             <img
-              src="https://marketplace.baosociety.com/icons/website/website-light.svg"
+              src="https://marketplace.Baosociety.com/icons/website/website-light.svg"
               className="w-5 hover:scale-105 duration-200 cursor-pointer"
               alt=""
             />
             <img
-              src="https://marketplace.baosociety.com/icons/discord/discord-light.svg"
+              src="https://marketplace.Baosociety.com/icons/discord/discord-light.svg"
               className="w-5 hover:scale-105 duration-200 cursor-pointer"
               alt=""
             />
             <img
-              src="https://marketplace.baosociety.com/icons/twitter/twitter-light.svg"
+              src="https://marketplace.Baosociety.com/icons/twitter/twitter-light.svg"
               className="w-5 hover:scale-105 duration-200 cursor-pointer"
               alt=""
             />

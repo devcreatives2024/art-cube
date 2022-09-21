@@ -3,7 +3,7 @@ import WDrawer from "./WDrawer";
 
 const Whitepaper = () => {
   return (
-    <div className="h-screen text-[#3B454E]">
+    <div className="text-[#3B454E]">
       <WDrawer />
     </div>
   );

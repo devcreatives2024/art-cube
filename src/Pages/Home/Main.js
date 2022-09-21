@@ -8,8 +8,8 @@ const Main = () => {
   };
   return (
     <div className="">
-      <div className="sticky top-0 z-20 mx-20">
-        <h1 className="text-[200px] font-head uppercase pt-[38vh]">
+      <div className="sticky top-0 z-20 lg:mx-20 mx-5">
+        <h1 className="lg:text-[200px] text-[140px] font-head uppercase pt-[38vh]">
           <motion.span
             initial={{ opacity: 0, y: -300 }}
             whileInView={{ opacity: 1, x: 1 }}
@@ -116,14 +116,14 @@ const Main = () => {
           viewport={{ once: true }}
           className="max-w-md text-sm mt-[10vh]"
         >
-          Bao is a collection of 3,888 randomly generated 3D model artworks
-          generated on the Ethereum Blockchain. Each Bao is totally unique and
+          Art is a collection of 3,888 randomly generated 3D model Baoworks
+          generated on the Ethereum Blockchain. Each Art is totally unique and
           comes with different traits and attributes varying in rarity and will
           act as the token gateway into the first Web3 membership platform for
           curated food and beverage (F&B) experiences.
         </motion.p>
       </div>
-      <div className="-mt-[100vh] flex flex-col">
+      <div className="lg:-mt-[100vh] -mt-[115vh] flex flex-col">
         <motion.div
           initial={{ opacity: 0, y: -300 }}
           whileInView={{ opacity: 1, y: 1 }}
@@ -132,30 +132,18 @@ const Main = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
           viewport={{ once: true }}
-          className="flex justify-end relative pr-20 z-30"
+          className="flex justify-end relative lg:pr-20"
         >
-          <div className="absolute right-24 z-10 border-[6px] border-[#3534db] text-[#3534db] rounded-full px-[4px] py-[20px] top-16">
+          <div className="absolute right-24 z-10 border-4 top-3 lg:border-[6px] border-[#3534db] text-[#3534db] rounded-full px-[4px] py-[20px] lg:top-16">
             <p className="-rotate-45 text-4xl font-bold">艺术</p>
           </div>
-          <div className="w-full"></div>
-          <div className="scale-x-[-1]">
-            <div
-              onMouseEnter={() => handleHover(1)}
-              onMouseLeave={() => setHover(false)}
-              className="absolute z-40 bg-opacity-0 left-14 bg-[#A5A5A5] w-80 top-0 h-96"
-            ></div>
-            <div
-              className={`absolute z-[-1] left-14 bg-[#A5A5A5] w-80 ${
-                hover === 1
-                  ? "top-0 h-96"
-                  : // ? "bottom-0 h-24 -skew-x-[30deg] ease-out duration-500"
-                    "top-0 h-96"
-              }`}
-            ></div>
+          <div className="w-full hidden lg:block"></div>
+          <div className="lg:scale-x-[-1]">
+            <div className="absolute z-[-1] left-0 lg:left-14 bg-[#A5A5A5] lg:w-80 w-60 h-72 top-0 lg:h-96"></div>
             <img
               src="https://cdn.sanity.io/images/tksc7ovq/production/5c1e4fcd4907fcb722114554e68e3277db2c2699-1200x1200.png"
               alt=""
-              className="w-[750px] -mt-10 -ml-4"
+              className="lg:w-[750px] w-80 lg:-mt-10 mr-16 lg:mr-0 -ml-24 lg:-ml-4"
             />
           </div>
         </motion.div>
@@ -167,11 +155,11 @@ const Main = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
           viewport={{ once: true }}
-          className="flex justify-end mt-40 z-30"
+          className="flex justify-end mt-12 lg:mt-40"
         >
-          <div className="w-full"></div>
+          <div className="w-full hidden lg:block"></div>
           <div className="relative">
-            <div className="h-80 bg-[#A5A5A5] w-72"></div>
+            <div className="lg:h-80 w-40 h-44 bg-[#A5A5A5] lg:w-72"></div>
             <img
               src="https://cdn.sanity.io/images/tksc7ovq/production/b644fedbac1b507fe1e64da170cb2651a8b74212-1200x1200.png"
               alt=""
@@ -187,11 +175,11 @@ const Main = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
           viewport={{ once: true }}
-          className="flex justify-start -mt-10"
+          className="flex justify-start lg:-mt-10 mt-72 ml-5"
         >
-          <div className="w-full"></div>
-          <div className="w-full relative -ml-72">
-            <div className="h-96 bg-[#A5A5A5] w-80"></div>
+          <div className="w-full hidden lg:block"></div>
+          <div className="w-full relative lg:-ml-72">
+            <div className="lg:h-96 w-56 h-72 bg-[#A5A5A5] lg:w-80"></div>
             <img
               src="https://cdn.sanity.io/images/tksc7ovq/production/f0da9fea7eb26562a9ac6ac4ca3c9545461ef538-1200x1200.png"
               alt=""
@@ -207,14 +195,14 @@ const Main = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
           viewport={{ once: true }}
-          className="flex justify-start -mt-10"
+          className="lg:-mt-10 mt-16"
         >
           <div className="w-full relative ml-32">
-            <div className="h-80 bg-[#A5A5A5] w-60"></div>
+            <div className="lg:h-80 w-52 h-60 bg-[#A5A5A5] lg:w-60"></div>
             <img
               src="https://cdn.sanity.io/images/tksc7ovq/production/42afab320a2e2f0515400a37485ca944fdb169d9-1200x1200.png"
               alt=""
-              className="w-80 absolute -left-12 top-0"
+              className="lg:w-80 w-60 absolute -left-5 lg:-left-12 top-0"
             />
           </div>
         </motion.div>

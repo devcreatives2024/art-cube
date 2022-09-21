@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const WisArt = () => {
   return (
     <div>
-      <div className="mx-20 my-8">
-        <h1 className="text-5xl font-bold border-b pb-6 border-gray-300">
+      <div className="lg:mx-20 mx-5 my-8">
+        <h1 className="lg:text-5xl text-3xl font-bold border-b pb-6 border-gray-300">
           What is $ART?
         </h1>
         <div class="my-9">
@@ -26,7 +26,7 @@ const WisArt = () => {
             excepturi cupiditate.
           </p>
         </div>
-        <div className="flex gap-3 w-full">
+        <div className="flex lg:flex-row flex-col gap-3 w-full">
           <Link
             to="/whitepaper/home"
             class="w-full px-4 py-4 border border-[#E3E8ED] flex justify-between items-center hover:text-[#7199E6] hover:-translate-y-[2px] duration-100"
@@ -36,7 +36,7 @@ const WisArt = () => {
               <h4 class="text-xs font-body text-gray-700">
                 Previous
               </h4>
-              <h1 class="text-lg">$ART Whitepaper</h1>
+              <h1 class="text-lg">$Art Whitepaper</h1>
             </div>
           </Link>
           <Link

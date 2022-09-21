@@ -34,7 +34,7 @@ const VidSec = () => {
   const textEnter = () => setCursorVariant("default");
   const textLeave = () => setCursorVariant(false);
   return (
-    <div className="mx-20 mb-28">
+    <div className="lg:mx-20 lg:mb-28 mt-12 lg:mt-0 mx-5">
       <div className="flex items-start justify-between">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -47,12 +47,12 @@ const VidSec = () => {
           viewport={{ once: true }}
           className=""
         >
-          <h1 className="text-[130px] mt-24 leading-none tracking-tight font-head uppercase">
+          <h1 className="lg:ext-[130px] text-[70px] mt-6 lg:mt-24 leading-none tracking-tight font-head uppercase">
             Web3 Meets <br /> Food & Beverage
           </h1>
         </motion.div>
-        <div className=" font-bold text-3xl text-[#3534DB]">
-          <div className="border-[7px] text-center border-[#3534DB] p-16">
+        <div className="font-bold text-xl lg:text-3xl text-[#3534DB]">
+          <div className="lg:border-[7px] border-4 text-center border-[#3534DB] p-5 lg:p-16">
             <p>艺</p>
             <p>术</p>
             <p>立</p>
@@ -60,7 +60,7 @@ const VidSec = () => {
           </div>
         </div>
       </div>
-      <div className="relative">
+      <div className="hidden lg:block relative">
         <motion.div
           variants={variants}
           animate={cursorVariant}
@@ -68,7 +68,7 @@ const VidSec = () => {
             !cursorVariant && "hidden"
           }`}
         >
-          <div className="w-24 h-24 bg-[url('https://baosociety.com/images/cursor.png')] bg-cover">
+          <div className="w-24 h-24 bg-[url('https://Baosociety.com/images/cursor.png')] bg-cover">
             <h1 className="text-white top-[42px] left-[58px] text-4xl font-bold absolute">
               •
             </h1>
@@ -79,7 +79,7 @@ const VidSec = () => {
             cursorVariant && "hidden"
           }`}
         >
-          <div className="w-24 h-24 bg-[url('https://baosociety.com/images/cursor.png')] bg-cover">
+          <div className="w-24 h-24 bg-[url('https://Baosociety.com/images/cursor.png')] bg-cover">
             <h1 className="text-white top-[42px] left-[58px] text-4xl font-bold absolute">
               •
             </h1>
@@ -88,10 +88,13 @@ const VidSec = () => {
         <img
           onMouseEnter={textEnter}
           onMouseLeave={textLeave}
-          src="https://baosociety.com/images/vhs.png"
+          src="https://Baosociety.com/images/vhs.png"
           alt="cassets"
           className="w-[60vw] mx-auto my-20"
         />
+      </div>
+      <div>
+        <img src="https://Baosociety.com/images/vhs.png" className="my-8 lg:hidden" alt="" />
       </div>
     </div>
   );

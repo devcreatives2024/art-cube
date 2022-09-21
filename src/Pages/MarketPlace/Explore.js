@@ -2,8 +2,8 @@ import React from "react";
 
 const Explore = ({ theme }) => {
   return (
-    <div className="mx-40">
-      <div className="mt-20 mb-8 flex">
+    <div className="lg:mx-40">
+      <div className="pt-20 mb-8 flex lg:flex-row flex-col">
         <div className="w-full">
           <h1 className="text-2xl font-semibold text-center">
             Explore Our Marketplace
@@ -13,16 +13,16 @@ const Explore = ({ theme }) => {
             community.
           </p>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-3 lg:mx-0 mx-auto">
           {theme ? (
             <>
               <img
-                src="https://marketplace.baosociety.com/icons/discord/discord-dark.svg"
+                src="https://marketplace.Baosociety.com/icons/discord/discord-dark.svg"
                 alt=""
                 className="w-5"
               />
               <img
-                src="https://marketplace.baosociety.com/icons/twitter/twitter-dark.svg"
+                src="https://marketplace.Baosociety.com/icons/twitter/twitter-dark.svg"
                 alt=""
                 className="w-5"
               />
@@ -30,12 +30,12 @@ const Explore = ({ theme }) => {
           ) : (
             <>
               <img
-                src="https://marketplace.baosociety.com/icons/discord/discord-light.svg"
+                src="https://marketplace.Baosociety.com/icons/discord/discord-light.svg"
                 alt=""
                 className="w-5"
               />
               <img
-                src="https://marketplace.baosociety.com/icons/twitter/twitter-light.svg"
+                src="https://marketplace.Baosociety.com/icons/twitter/twitter-light.svg"
                 alt=""
                 className="w-5"
               />

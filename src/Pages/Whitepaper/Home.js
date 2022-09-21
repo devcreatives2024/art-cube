@@ -7,15 +7,15 @@ const Home = () => {
       <img
         src="https://2958952834-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FTzN1bJCbdGHZpshXjW2O%2Fuploads%2FUtA4GZr0sB3wIKO7rfy1%2Fbao%20society%20header%201.png?alt=media&token=ece8c2e4-5534-48ae-a55a-b6e4b32b9400"
         alt=""
-        className="h-[250px] w-full"
+        className="w-full"
       />
-      <div className="mx-20 my-8">
-        <h1 className="text-5xl font-bold">$ART Whitepaper</h1>
+      <div className="lg:mx-20 mx-5 my-8">
+        <h1 className="lg:text-5xl text-3xl font-bold">$Art Whitepaper</h1>
         <p className="mt-6 text-gray-600 border-b pb-6 border-gray-300">
-          Everything you need to know about the $ART token.
+          Everything you need to know about the $Art token.
         </p>
         <div class="my-9">
-          <h1 className="text-3xl font-bold">Overview</h1>
+          <h1 className="lg:text-3xl text-2xl font-bold">Overview</h1>
           <p class="my-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
             ea natus cumque debitis fugiat quam eligendi sit, asperiores

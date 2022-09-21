@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Earn = () => {
   return (
     <div>
-      <div className="mx-20 my-8">
+      <div className="lg:mx-20 mx-5 my-8">
         <h1 className="text-5xl font-bold border-b pb-6 border-gray-300">
           Earning and Claiming $ART
         </h1>
@@ -32,7 +32,7 @@ const Earn = () => {
             consequatur magni non aperiam ea hic aliquid ipsam illo a!
           </p>
           <div className="mt-10">
-            <h1 className="font-bold mb-4">To claim $ART without staking:</h1>
+            <h1 className="font-bold mb-4">To claim $Art without staking:</h1>
             <div className="flex items-center gap-3">
               <p className="font-bold text-2xl">•</p>{" "}
               <p>
@@ -52,7 +52,7 @@ const Earn = () => {
             </div>
           </div>
           <div className="mt-10">
-            <h1 className="font-bold mb-4">To claim $ART without staking:</h1>
+            <h1 className="font-bold mb-4">To claim $Art without staking:</h1>
             <div className="flex items-center gap-3">
               <p className="font-bold text-2xl">•</p>{" "}
               <p>
@@ -84,7 +84,7 @@ const Earn = () => {
             Art staking site example
           </p>
         </div>
-        <div className="flex gap-3 w-full">
+        <div className="flex lg:flex-row flex-col gap-3 w-full">
           <Link
             to="/whitepaper/what"
             class="w-full px-4 py-4 border border-[#E3E8ED] flex justify-between items-center hover:text-[#7199E6] hover:-translate-y-[2px] duration-100"
@@ -105,7 +105,7 @@ const Earn = () => {
               <h4 class="text-xs font-body text-gray-700">
                 Next - Token Basics
               </h4>
-              <h1 class="text-lg w-max pr-3">Hom much $ART does my Art NFT earn?</h1>
+              <h1 class="text-lg w-max pr-3">Hom much $Art does my Art N..</h1>
             </div>
             <p class="font-bold">🡪</p>
           </Link>
