@@ -25,7 +25,7 @@ const StakeNav = () => {
           </li>
           <li>
             <a
-              href="whitepaper"
+              href="whitepaper/home"
               target='_blank'
               onMouseEnter={() => handleHover(2)}
               onMouseLeave={() => handleHover(false)}

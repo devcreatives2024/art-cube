@@ -2,7 +2,7 @@ import React from "react";
 
 const WhitePNav = () => {
   return (
-    <div className="p-5 bg-[#181C1F] border-b border-[#374151] fixed top-0 w-full flex">
+    <div className="p-5 bg-[#181C1F] border-b border-[#374151] w-full flex">
       <div className="flex justify-start">
         <div className="w-72 border-r border-[#374151]">
           <img
