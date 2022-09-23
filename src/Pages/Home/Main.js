@@ -197,13 +197,15 @@ const Main = () => {
           viewport={{ once: true }}
           className="lg:-mt-10 mt-16"
         >
-          <div className="w-full relative ml-32">
-            <div className="lg:h-80 w-52 h-60 bg-[#A5A5A5] lg:w-60"></div>
-            <img
-              src="https://cdn.sanity.io/images/tksc7ovq/production/42afab320a2e2f0515400a37485ca944fdb169d9-1200x1200.png"
-              alt=""
-              className="lg:w-80 w-60 absolute -left-5 lg:-left-12 top-0"
-            />
+          <div className="w-full relative lg:ml-32 lg:block flex justify-end">
+            <div>
+              <div className="lg:h-80 w-52 h-60 bg-[#A5A5A5] lg:w-60"></div>
+              <img
+                src="https://cdn.sanity.io/images/tksc7ovq/production/42afab320a2e2f0515400a37485ca944fdb169d9-1200x1200.png"
+                alt=""
+                className="lg:w-80 w-60 absolute right-0 lg:-left-12 top-0"
+              />
+            </div>
           </div>
         </motion.div>
       </div>

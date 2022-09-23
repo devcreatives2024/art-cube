@@ -24,7 +24,7 @@ const Products = ({ theme }) => {
   const Expired = products.filter((s) => s.available == "exp");
   return (
     <div className="lg:mx-40 mx-5">
-      <div className="flex lg:flex-row flex-col gap-3 lg:gap-0 justify-between">
+      <div className="flex md:flex-row lg:flex-row flex-col gap-3 lg:gap-0 justify-between">
         <Menu>
           <MenuHandler>
             <Button className="bg-white dark:bg-black dark:text-white dark:border-white text-[#1A1A1A] border-2 text-lg font-sub capitalize hover:shadow-none border-[#1A1A1A] justify-between w-44 flex shadow-none">
@@ -75,7 +75,7 @@ const Products = ({ theme }) => {
       </div>
       {open === "available" && (
         <>
-          <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 justify-items-center mt-6">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 justify-items-center mt-6">
             {Available.map((product) => (
               <Product key={product?.id} theme={theme} product={product} />
             ))}
@@ -90,7 +90,7 @@ const Products = ({ theme }) => {
       )}
       {open === "all" && (
         <>
-          <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 justify-items-center mt-6">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 justify-items-center mt-6">
             {products.map((product) => (
               <Product key={product?.id} theme={theme} product={product} />
             ))}
@@ -103,7 +103,7 @@ const Products = ({ theme }) => {
       )}
       {open === "expired" && (
         <>
-          <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 justify-items-center mt-6">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 justify-items-center mt-6">
             {Expired.map((product) => (
               <Product key={product?.id} theme={theme} product={product} />
             ))}
